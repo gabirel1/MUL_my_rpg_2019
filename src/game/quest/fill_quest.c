@@ -42,7 +42,6 @@ int getmapid(char *str)
     }
     while (str[i] && str[i] != ':')
         new_str[j++] = str[i++];
-    new_str[j] = 0;//fixed
     return (my_getnbr(new_str));
 }
 

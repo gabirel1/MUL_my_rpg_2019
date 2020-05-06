@@ -26,7 +26,7 @@ int get_iconiddialog(char *str)
 {
     int i = 0;
     int j = 0;
-    char *new_str = malloc(sizeof(char) * 15);//fixed ?
+    char *new_str = malloc(sizeof(char) * 10);
 
     for (int nbr = 0; str[i] && nbr < 8; i++)
         if (str[i] == ':')

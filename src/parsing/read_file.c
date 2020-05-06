@@ -13,7 +13,6 @@ int files_open(char const *path)
 
     if (fd < 0) {
         putstr_error("ERROR: faile open file\n");
-        exit (84);
     }
     return (fd);
 }
